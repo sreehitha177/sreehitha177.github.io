@@ -777,9 +777,11 @@
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
                     <li><a href="#education">Education</a></li>
+                    <li><a href="#research">Research</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#skills">Skills</a></li>
+                    <li><a href="#leadership">Leadership</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -791,24 +793,24 @@
     <section class="hero">
         <div class="container">
             <h1>Hello, I'm Sreehitha</h1>
-            <p class="tagline">Software Developer | Machine Learning Enthusiast | Distributed Systems Explorer</p>
+            <p class="tagline">Software Engineer | Machine Learning &amp; LLM Researcher | Distributed Systems Builder</p>
             
             <p class="intro">
                 I’m a Computer Science graduate student at UMass Amherst with experience in 
-                <strong>software development, distributed systems, and machine learning</strong>. 
-                I’m passionate about solving challenging problems and building scalable systems that drive real-world impact.
+                <strong>software engineering, distributed systems, and machine learning</strong>. 
+                Most recently a Research Extern at Dolby Laboratories, I’m passionate about building scalable systems and LLM-powered applications that drive real-world impact.
             </p>
 
             <div class="social-links">
                 <a href="https://linkedin.com/in/narayana-sreehitha-reddy" target="_blank"><i class="fab fa-linkedin"></i></a>
                 <a href="https://github.com/sreehitha177" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="mailto:snarayana@umass.edu"><i class="fas fa-envelope"></i></a>
+                <a href="mailto:sreehitha1707@gmail.com"><i class="fas fa-envelope"></i></a>
             </div>
             
             <div class="hero-buttons">
                 <a href="#contact" class="btn">Get In Touch</a>
                 <a href="#projects" class="btn">View My Work</a>
-                <a href="Resume.pdf" download class="btn">Download Resume</a>
+                <a href="CV.pdf" download class="btn">Download Resume</a>
             </div>
         </div>
     </section>
@@ -826,7 +828,7 @@
                     <p>When I'm not coding, you can find me painting, playing badminton and sometimes at the gym too.</p>
                 </div>
                 <div class="about-image">
-                    <img src="Photo.jpg" alt="Sreehitha Reddy Narayana">
+                    <img src="Photo.jpg" alt="Sreehitha R Narayana">
                 </div>
             </div>
         </div>
@@ -847,9 +849,9 @@
                     </div>
                     <div class="education-details">
                         <ul>
-                            <li>GPA: 3.76/4.0</li>
+                            <li>GPA: 3.81/4.0</li>
                             <li>Amherst, MA</li>
-                            <li>Relevant coursework: Machine Learning, Systems for Data Science, Algorithms for Data Science, Database Design and Implementation, Statistics, Combinatorics and Graph Theory</li>
+                            <li>Relevant coursework: Machine Learning, Systems for Data Science, Advanced NLP, Database Design and Implementation, Distributed Systems, Algorithms for Data Science</li>
                         </ul>
                     </div>
                 </div>
@@ -874,6 +876,38 @@
         </div>
     </section>
 
+    <!-- Research Section -->
+    <section id="research">
+        <div class="container">
+            <h2>Research</h2>
+            <div class="experience-container">
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div style="display:flex; align-items:center; gap:16px;">
+                            <img src="dolby-com-logo.png" alt="Dolby Laboratories logo" style="height:50px; width:auto; object-fit:contain;">
+                            <div>
+                                <h3 class="experience-title">Research Extern</h3>
+                                <p class="experience-company">Dolby Laboratories &middot; Remote, USA</p>
+                            </div>
+                        </div>
+                        <div class="experience-date">Jan 2026 &ndash; May 2026</div>
+                    </div>
+                    <div class="experience-details">
+                        <ul>
+                            <li>Developed an LLM-based multimodal music recommendation system for session-based next-song prediction, combining sequential behavior modeling with content-aware item representations across SASRec, BERT4Rec, and GRU4Rec backbones.</li>
+                            <li>Built a large-scale LastFM-1K enrichment pipeline over 4.2M+ listening events, 814 users, and 295K+ tracks, generating a Top-50K song catalog with audio, lyric, metadata, and completion-ratio features.</li>
+                            <li>Integrated pretrained audio and lyric encoders with GPT-5 generated 58-attribute musicological metadata, capturing acoustic, lyrical, semantic, and engagement-aware signals for content-aware ranking.</li>
+                            <li>Fine-tuned and evaluated LLM recommenders using LoRA across LLaMA, Qwen, and multiple embedding fusion strategies on SLURM with CUDA-enabled GPUs, measuring Recall and NDCG.</li>
+                        </ul>
+                        <div class="project-links" style="margin-top:16px;">
+                            <a href="https://arxiv.org/abs/2606.00125" target="_blank"><i class="fas fa-file-alt"></i> Multimodal Music Recommendation System using LLMs (arXiv)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Experience Section -->
     <section id="experience">
         <div class="container">
@@ -889,10 +923,10 @@
                     </div>
                     <div class="experience-details">
                         <ul>
-                            <li>Engineered high-performance C++ components for 5G architecture, focusing on Session Border Controller (SBC) node and Session Management Function (SMF), boosting network reliability by 15%</li>
-                            <li>Conducted network analysis using Wireshark, reducing troubleshooting time by 30% through efficient packet capture and analysis</li>
-                            <li>Deployed Landslide for comprehensive telecom network testing, validating system robustness across 50+ test scenarios</li>
-                            <li>Collaborated with senior developers weekly to refine coding standards based on established best practices</li>
+                            <li>Engineered high-performance C++ backend services for large-scale 5G core systems, improving reliability by 15%.</li>
+                            <li>Optimized data pipelines and performed deep network traffic analysis using Wireshark, identifying bottlenecks and reducing issue resolution time by 30% while improving throughput.</li>
+                            <li>Designed data flow across 5G components (SMF/SBC), ensuring low-latency, fault-tolerant communication.</li>
+                            <li>Delivered production-ready features in Agile sprints, working with cross-functional teams to strengthen system stability through code reviews and testing.</li>
                         </ul>
                     </div>
                 </div>
@@ -907,49 +941,101 @@
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-info">
+                        <h3>Medical SOAP Note Generation with Knowledge Graph</h3>
+                        <p>Sep 2025 &ndash; Dec 2025</p>
+                        <div class="project-tags">
+                            <span class="project-tag">PyTorch</span>
+                            <span class="project-tag">Transformers</span>
+                            <span class="project-tag">NLP</span>
+                            <span class="project-tag">LoRA</span>
+                            <span class="project-tag">LLM</span>
+                        </div>
+                        <p>Built an LLM-based pipeline using T5-Large to generate structured medical SOAP notes from doctor-patient dialogues. Fine-tuned with LoRA, applied KG-augmented prompting to reduce hallucinations from 55% to 21%, and improved BERTScore from 0.71 to 0.87. Evaluated using ROUGE, BERTScore, and LLM-as-judge.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/sreehitha177" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>UniTrade &mdash; UMass Campus Marketplace</h3>
+                        <p>Sep 2025 &ndash; Dec 2025</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Next.js</span>
+                            <span class="project-tag">TypeScript</span>
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">PostgreSQL</span>
+                            <span class="project-tag">WebSockets</span>
+                        </div>
+                        <p>Built a campus-exclusive full-stack marketplace with JWT-based authentication and email verification. Designed scalable RESTful APIs and a normalized PostgreSQL schema for bidding, messaging, and admin moderation. Implemented a real-time auction engine with WebSockets and AI-powered semantic search using Google Gemini.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/sreehitha177" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Distributed Middleware over Cassandra</h3>
+                        <p>Sep 2025 &ndash; Dec 2025</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Java</span>
+                            <span class="project-tag">Apache Cassandra</span>
+                            <span class="project-tag">RPC</span>
+                            <span class="project-tag">Distributed Systems</span>
+                        </div>
+                        <p>Developed a distributed middleware over Cassandra ensuring totally ordered writes and strong consistency across nodes. Designed a non-blocking RPC framework for coordinated replication and fault-tolerant concurrent operations via asynchronous request handling.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/sreehitha177" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-info">
                         <h3>Scalable Distributed Vector Search System</h3>
-                        <p>Research Project | FAISS, HNSW, Python</p>
+                        <p>May 2025 &ndash; Aug 2025</p>
                         <div class="project-tags">
                             <span class="project-tag">Python</span>
                             <span class="project-tag">FAISS</span>
                             <span class="project-tag">HNSW</span>
                             <span class="project-tag">Distributed Systems</span>
                         </div>
-                        <p>Working on developing a distributed vector search engine on 100M+ vectors using FAISS and HNSW. I am actively working on partitioning strategies and multi-host querying techniques to optimize recall and latency, while also building benchmarking tools to evaluate recall, latency, and throughput for large-scale deployments.</p>
+                        <p>Designed a distributed vector search engine for scalable ANN retrieval on 10M+ vectors using HNSW indexing. Working on coarse quantization and selective multi-host querying to balance recall and latency. Benchmarked recall, latency, and throughput with self-developed evaluation tools across single and multi-host setups.</p>
                         <div class="project-links">
                             <a href="https://github.com/sreehitha177/Distributed_Vector_Dbs.git" target="_blank"><i class="fab fa-github"></i> GitHub</a>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="project-card">
                     <div class="project-info">
                         <h3>High-Performance Database Indexing System</h3>
-                        <p>Java, B+ Trees, Buffer Management</p>
+                        <p>Jan 2025 &ndash; May 2025</p>
                         <div class="project-tags">
                             <span class="project-tag">Java</span>
                             <span class="project-tag">B+ Trees</span>
                             <span class="project-tag">Buffer Management</span>
                         </div>
-                        <p>Developed a disk-based B+Tree indexing system with a custom buffer manager to handle 100K+ records efficiently. Implemented pipelined relational operators (Scan, Selection, Projection, Join) to support large-scale query execution with minimal disk latency.
-</p>
+                        <p>Built a disk-based B+ Tree indexing system for 100K+ records with optimized insert, search, and range query support. Built a buffer manager with LRU eviction and configurable memory limits (1MB&ndash;1GB). Developed a query execution engine using pipelined relational operators for efficient multi-stage join processing.</p>
                         <div class="project-links">
                             <a href="https://github.com/sreehitha177/Disk-based-Database-Engine.git" target="_blank"><i class="fab fa-github"></i> GitHub</a>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="project-card">
                     <div class="project-info">
                         <h3>Credit Card Fraud Detection System</h3>
-                        <p>PySpark, Random Forest, AWS, Apache Kafka</p>
+                        <p>Aug 2024 &ndash; Dec 2024</p>
                         <div class="project-tags">
                             <span class="project-tag">PySpark</span>
                             <span class="project-tag">Machine Learning</span>
                             <span class="project-tag">AWS</span>
                             <span class="project-tag">Apache Kafka</span>
                         </div>
-                        <p>Built a real-time fraud detection pipeline processing 10,000+ transactions/sec using PySpark and Apache Kafka, deployed on AWS. Improved Random Forest precision to 98% on highly imbalanced datasets with SMOTE and advanced feature engineering, reducing false positives by 25%.</p>
+                        <p>Built a real-time fraud detection pipeline using PySpark and Apache Kafka, processing 10,000+ transactions/sec. Developed Python services with SQL-based feature extraction achieving 98% precision on imbalanced data. Deployed, monitored, and scaled the system on AWS EC2.</p>
                         <div class="project-links">
                             <a href="https://github.com/sreehitha177/Credit-Card-Fraud-Detection.git" target="_blank"><i class="fab fa-github"></i> GitHub</a>
                         </div>
@@ -988,8 +1074,9 @@
                     <li><i class="fas fa-file-code"></i> C++</li>
                     <li><i class="fab fa-java"></i> Java</li>
                     <li><i class="fas fa-database"></i> SQL</li>
+                    <li><i class="fab fa-js"></i> JavaScript</li>
+                    <li><i class="fas fa-code"></i> TypeScript</li>
                     <li><i class="fas fa-chart-line"></i> R</li>
-                    <li><i class="fas fa-calculator"></i> MATLAB</li>
                 </ul>
             </div>
             
@@ -998,25 +1085,35 @@
                 <ul class="skill-list">
                     <li><i class="fas fa-robot"></i> PyTorch</li>
                     <li><i class="fas fa-robot"></i> TensorFlow</li>
-                    <li><i class="fas fa-search"></i> FAISS</li>
                     <li><i class="fas fa-chart-bar"></i> Scikit-learn</li>
                     <li><i class="fas fa-table"></i> Pandas</li>
                     <li><i class="fas fa-calculator"></i> NumPy</li>
+                    <li><i class="fas fa-search"></i> FAISS</li>
                     <li><i class="fas fa-balance-scale"></i> SMOTE</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3><i class="fas fa-magic"></i> LLMs & Generative AI</h3>
+                <ul class="skill-list">
+                    <li><i class="fas fa-robot"></i> Hugging Face Transformers</li>
+                    <li><i class="fas fa-sliders-h"></i> LoRA Fine-Tuning</li>
+                    <li><i class="fas fa-comments"></i> Prompt Engineering</li>
+                    <li><i class="fas fa-search"></i> RAG</li>
+                    <li><i class="fas fa-microchip"></i> CUDA / SLURM</li>
                 </ul>
             </div>
             
             <div class="skill-category">
-                <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
+                <h3><i class="fas fa-tools"></i> Software Engineering</h3>
                 <ul class="skill-list">
-                    <li><i class="fab fa-git-alt"></i> Git</li>
-                    <li><i class="fab fa-docker"></i> Docker</li>
+                    <li><i class="fab fa-node-js"></i> Node.js / Express.js</li>
+                    <li><i class="fab fa-react"></i> React.js / Next.js</li>
                     <li><i class="fas fa-stream"></i> Apache Kafka</li>
                     <li><i class="fas fa-bolt"></i> PySpark</li>
-                    <li><i class="fas fa-box"></i> Maven</li>
-                    <li><i class="fas fa-box-open"></i> Gradle</li>
-                    <li><i class="fas fa-check-circle"></i> Junit</li>
-                    <li><i class="fas fa-shield-alt"></i> Wireshark</li>
+                    <li><i class="fab fa-git-alt"></i> Git</li>
+                    <li><i class="fab fa-docker"></i> Docker</li>
+                    <li><i class="fas fa-check-circle"></i> JUnit / Maven / Gradle</li>
                 </ul>
             </div>
             
@@ -1024,8 +1121,11 @@
                 <h3><i class="fas fa-cloud"></i> Cloud & Data</h3>
                 <ul class="skill-list">
                     <li><i class="fab fa-aws"></i> AWS</li>
-                    <li><i class="fas fa-database"></i> PostgreSQL</li>
+                    <li><i class="fab fa-microsoft"></i> Azure</li>
+                    <li><i class="fas fa-database"></i> PostgreSQL / MySQL</li>
+                    <li><i class="fas fa-database"></i> Cassandra / NoSQL</li>
                     <li><i class="fas fa-database"></i> SQLite</li>
+                    <li><i class="fas fa-terminal"></i> Linux</li>
                 </ul>
             </div>
         </div>
@@ -1104,6 +1204,23 @@
 }
 </style>
     
+    <!-- Leadership Section -->
+    <section id="leadership">
+        <div class="container">
+            <h2>Leadership &amp; Activities</h2>
+            <div class="experience-container">
+                <div class="experience-item">
+                    <div class="experience-details">
+                        <ul>
+                            <li>Impacted 500+ underprivileged students through educational outreach, mentorship, and community development initiatives.</li>
+                            <li>Led a university-wide technical competition, driving a 30% increase in participation through strategic planning and outreach.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
@@ -1114,8 +1231,8 @@
                     <p>I'm available for full-time opportunities in software development and machine learning roles. Feel free to contact me and I'll get back to you as soon as possible.</p>
                     <ul class="contact-details">
                         <li>
-                            <a href="mailto:snarayana@umass.edu">
-                            <i class="fas fa-envelope"></i> snarayana@umass.edu
+                            <a href="mailto:sreehitha1707@gmail.com">
+                            <i class="fas fa-envelope"></i> sreehitha1707@gmail.com
                             </a>
                         </li>
                         <li><i class="fas fa-phone"></i> (310) 422-1170</li>
@@ -1196,11 +1313,11 @@
             <a href="https://github.com/sreehitha177" target="_blank" aria-label="GitHub">
                 <i class="fab fa-github"></i>
             </a>
-            <a href="mailto:snarayana@umass.edu" aria-label="Email">
+            <a href="mailto:sreehitha1707@gmail.com" aria-label="Email">
                 <i class="fas fa-envelope"></i>
             </a>
             </div>
-            <p>&copy; 2025 Sreehitha Reddy Narayana.</p>
+            <p>&copy; 2026 Sreehitha Reddy Narayana.</p>
             <a href="#" class="back-to-top">Back to Top</a>
         </div>
     </footer>
