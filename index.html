@@ -1248,8 +1248,7 @@
                             </a>
                         </li>
                     </ul>
-
-
+                </div>
 
                 <div class="contact-form">
                     <form
@@ -1327,17 +1326,8 @@
         const contactForm = document.getElementById('contactForm');
         
         contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            
             const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const subject = document.getElementById('subject').value;
-            const message = document.getElementById('message').value;
-            
-
             alert(`Thank you for your message, ${name}! I'll get back to you soon.`);
-            
-            contactForm.reset();
         });
 
         const backToTop = document.querySelector('.back-to-top');
